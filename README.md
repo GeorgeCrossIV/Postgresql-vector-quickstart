@@ -19,3 +19,9 @@ Notes on using the `pgvector` extension for PostgreSQL.
 
 ## Example of the output from the GEtting Started instructions
 ![Vector Quick Start Image](vector-quick-start-results.png)
+
+## Notes
+- It was very easy to implement the vector data type in Postgres
+- Functionality wise - there is not much difference between the extension and the DataStax vector data type
+- There are two supported index types for pgvector versus three index types for Cassandra
+- There are slight differences on how the queries are written
